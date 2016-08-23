@@ -7,6 +7,9 @@
 <body>
 	<h1> Test </h1>
 	<p> Add simple div </p>
+	<script>
+    (function(d){l=localStorage,k='c',q=d.body;q.contentEditable=true;q.innerHTML=l[k]||'';q.oninput=function(){l[k]=q.innerHTML;}})(document);
+	</script>
 </body>
 </html>
 
